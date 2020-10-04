@@ -24,12 +24,12 @@ library
   exposed-modules:
     JSONPointer
   build-depends:
-      base                 >= 4.9 && < 5
-    , aeson                >= 0.7
-    , hashable             >= 1.2
-    , unordered-containers >= 0.2
-    , text                 >= 1.2
-    , vector               >= 0.10
+      base
+    , aeson
+    , hashable
+    , unordered-containers
+    , text
+    , vector
 
 test-suite unit
   hs-source-dirs:
@@ -48,8 +48,8 @@ test-suite unit
       aeson
     , base
     , hjsonpointer
-    , hspec                >= 2.2
-    , http-types           >= 0.8
+    , hspec
+    , http-types
     , QuickCheck
     , unordered-containers
     , text
